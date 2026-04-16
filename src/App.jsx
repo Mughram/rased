@@ -45,7 +45,7 @@ function App() {
       dir="rtl"
       className="min-h-screen bg-[linear-gradient(180deg,#1d1f1b_0%,#232621_100%)] text-white"
     >
-      <section className="mx-auto min-h-screen w-full max-w-[1680px] px-4 pb-28 pt-6 sm:px-6 lg:px-8 lg:pb-8">
+      <section className="mx-auto min-h-screen w-full max-w-[1680px] px-3 pb-28 pt-4 sm:px-6 sm:pt-6 lg:px-8 lg:pb-8">
         <div className="flex min-h-[calc(100vh-4rem)] flex-col gap-5 lg:flex-row lg:items-stretch">
           <Sidebar
             items={items}
@@ -56,7 +56,7 @@ function App() {
           <div className="flex min-w-0 flex-1 flex-col">
             <HeaderBar currentItem={currentItem} />
 
-            <section className="mt-5 flex-1 rounded-[32px] border border-white/8 bg-[#2b2d28] p-6 shadow-[0_18px_50px_rgba(0,0,0,0.16)] sm:p-8 lg:p-10">
+            <section className="mt-5 flex-1 rounded-[28px] border border-white/8 bg-[#2b2d28] p-4 shadow-[0_18px_50px_rgba(0,0,0,0.16)] sm:rounded-[32px] sm:p-8 lg:p-10">
               <ViewRouter activeTab={activeTab} currentItem={currentItem} />
             </section>
           </div>
